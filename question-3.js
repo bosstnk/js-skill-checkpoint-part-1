@@ -2,9 +2,9 @@
 let userPassword = "ssfsd";
 // เริ่มเขียนโค้ดตรงนี้]
 function checkPasswordStrength(password){
-    if (userPassword.length < 6) {
+    if (password.length < 6) {
         return "Weak"
-    } else if (userPassword.length <= 10) {
+    } else if (password.length <= 10) {
         return "Medium"
     } else {return "Strong"}
 }
